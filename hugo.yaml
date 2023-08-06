@@ -68,11 +68,11 @@ languages:
       logo:
         logoText: "Bryan's Dev Blog"
         logoHomeLink: "/"
-      menu:
-        main:
-          - identifier: "about"
-            name: "About"
-            url: "/about"
+    menu:
+      main:
+        - identifier: "about"
+          name: "About"
+          url: "/about"
 
 permalinks:
   posts: /:slug/
