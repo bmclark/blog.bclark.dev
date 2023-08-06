@@ -57,7 +57,7 @@ languages:
       subtitle: "Interesting Tech Articles"
       owner: ""
       keywords: ""
-      copyright: ""
+      copyright: "2023 Bryan Clark"
       menuMore: "Show more"
       readMore: "Read more"
       readOtherPosts: "Read other posts"
@@ -75,7 +75,7 @@ languages:
           url: "/about"
 
 permalinks:
-  posts: /:slug/
+  posts: /:filename/
 
 enableGitInfo: true
 
