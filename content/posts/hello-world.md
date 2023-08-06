@@ -13,5 +13,6 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-#Hello World
+## Hello World
+
 This is my initial blog post to test if it is working and some additional configurations.
