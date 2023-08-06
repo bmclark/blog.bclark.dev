@@ -1,0 +1,100 @@
+# Base URL
+baseURL: https://blog.bclark.dev/
+
+# Language code
+languageCode: "en-us"
+
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+theme: "terminal"
+
+# Pagination limit
+paginate: 5
+
+params:
+  AuthorName: Bryan Clark
+  GitHubUser: bmclark
+  SidebarRecentLimit: 5
+  # Dir name of your main content (default is `content/posts`).
+  # The list of set content will show up on your index page (baseurl).
+  contentTypeName: "posts"
+
+  # Theme color: "orange", "blue", "red", "green", "pink"
+  themeColor: "green"
+
+  # If you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
+
+  # Show selector to switch language
+  showLanguageSelector: false
+
+  # Set theme to full screen width
+  fullWidthTheme: false
+
+  # Center theme with default width
+  centerTheme: false
+
+  # If your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover: true
+
+  # Set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated: false
+
+twitter:
+  # Set Twitter handles for Twitter cards
+  # Do not include @
+  creator: ""
+  site: ""
+
+languages:
+  en:
+    params:
+      languageName: "English"
+      title: "Bryan Clark's Dev Blog"
+      subtitle: "Interesting Tech Articles"
+      owner: ""
+      keywords: ""
+      copyright: ""
+      menuMore: "Show more"
+      readMore: "Read more"
+      readOtherPosts: "Read other posts"
+      newerPosts: "Newer posts"
+      olderPosts: "Older posts"
+      missingContentMessage: "Page not found..."
+      missingBackButtonLabel: "Back to home page"
+      logo:
+        logoText: "Terminal"
+        logoHomeLink: "/"
+      menu:
+        main:
+          - identifier: "about"
+            name: "About"
+            url: "/about"
+          - identifier: "showcase"
+            name: "Showcase"
+            url: "/showcase"
+
+permalinks:
+  posts: /:slug/
+
+enableGitInfo: true
+
+frontmatter:
+  date:
+  - date
+  - publishDate
+  - lastmod
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date
+
