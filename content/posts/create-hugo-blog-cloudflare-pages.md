@@ -171,4 +171,3 @@ We should now be able to navigate to `blog.example.com` and see our first post w
 [^5]: [Official Cloudflare Pages Hugo Guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)
 [^6]: [Hugo Config Getting Started](https://gohugo.io/getting-started/configuration/)
 [^7]: [ChatGPT](https://chat.openai.com)
-[Create a Hugo Website with GitHub Pages, GitHub Actions, and Cloudflare](https://schnerring.net/blog/create-a-hugo-website-with-github-pages-github-actions-and-cloudflare/)
