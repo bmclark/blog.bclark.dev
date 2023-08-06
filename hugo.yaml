@@ -32,7 +32,7 @@ params:
   fullWidthTheme: false
 
   # Center theme with default width
-  centerTheme: false
+  centerTheme: true
 
   # If your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -41,7 +41,7 @@ params:
 
   # Set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated: false
+  showLastUpdated: true
 
 twitter:
   # Set Twitter handles for Twitter cards
@@ -66,16 +66,13 @@ languages:
       missingContentMessage: "Page not found..."
       missingBackButtonLabel: "Back to home page"
       logo:
-        logoText: "Terminal"
+        logoText: "Bryan's Dev Blog"
         logoHomeLink: "/"
       menu:
         main:
           - identifier: "about"
             name: "About"
             url: "/about"
-          - identifier: "showcase"
-            name: "Showcase"
-            url: "/showcase"
 
 permalinks:
   posts: /:slug/
