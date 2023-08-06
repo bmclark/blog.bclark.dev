@@ -75,7 +75,8 @@ languages:
           url: "/about"
 
 permalinks:
-  posts: /:filename/
+  posts: /post/:filename/
+  tutorials: /tutorials/:filename/
 
 enableGitInfo: true
 
