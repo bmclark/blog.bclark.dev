@@ -1,6 +1,7 @@
 ---
 title: "About"
 hideComments: true
+toc: false
 ---
 
 ## About This Blog

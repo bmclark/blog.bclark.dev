@@ -4,11 +4,11 @@ date = "2023-08-06T12:13:05-04:00"
 author = "Bryan Clark"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
+tags = ["hugo", "cloudflare", "git", "how-to", "gitea", "github"]
+keywords = ["hugo blog setup", "cloudflare pages", "tutorial", "git blog ci"]
+description = "This tutorial discusses how to push a hugo blog to a Gitea git repo and have each new commit automatically built and deployed to Cloudflare pages."
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 color = "" #color from the theme settings
 +++
