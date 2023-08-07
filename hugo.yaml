@@ -1,55 +1,63 @@
 # Base URL
 baseURL: https://blog.bclark.dev/
-
-# Language code
-languageCode: "en-us"
-
-# Add it only if you keep the theme in the `themes` directory.
-# Remove it if you use the theme as a remote Hugo Module.
-theme: "terminal"
-
-# Pagination limit
-paginate: 5
+title: "Bryan Clark's Dev Blog"
+theme: "hugo-blog-awesome"
+languageCode: "en-US"
+enableGitInfo: true
+enableInlineShortcodes: true
+pygmentsCodeFences: true
+pygmentsUseClasses: true
 
 params:
-  AuthorName: Bryan Clark
-  GitHubUser: bmclark
-  SidebarRecentLimit: 5
-  # Dir name of your main content (default is `content/posts`).
-  # The list of set content will show up on your index page (baseurl).
-  contentTypeName: "posts"
-
-  # Theme color: "orange", "blue", "red", "green", "pink"
-  themeColor: "green"
-
-  # If you set this to 0, only submenu trigger will be visible
-  showMenuItems: 2
-
-  # Show selector to switch language
-  showLanguageSelector: false
-
-  # Set theme to full screen width
-  fullWidthTheme: false
-
-  # Center theme with default width
-  centerTheme: true
-
-  # If your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover: true
-
-  # Set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  description: "Interesting Tech Articles"
+  sitename: "Bryan Clark's Dev Blog"
+  copyright: "Copyright © 2023 Bryan Clark"
+  mainSection: "posts"
+  highlight: true
   showLastUpdated: true
+  goToTop: true
+  author:
+    avatar: "maverick.png"
+    name: "Bryan Clark"
+    intro: "Bryan Clark's Dev Blog"
+    description: "I write about tech things I'm doing in my personal life that I find interesting."
+  socialIcons:
+    github:
+        name: github
+        url: https://github.com/bmclark
+    rss:
+        name: rss
+        url: index.xml
+  
 
-twitter:
-  # Set Twitter handles for Twitter cards
-  # Do not include @
-  creator: ""
-  site: ""
+menu:
+  main:
+    - identifier: "posts"
+      name: "posts"
+      title: "posts"
+      url: "/"
+      weight: 10
+    - identifier: "about"
+      name: "about"
+      title: "about"
+      url: "/about/"
+      weight: 20
 
-copyright: "© 2023 Bryan Clark"
+# permalinks:
+#   posts: /post/:filename/
+#   tutorials: /tutorials/:filename/
+permalinks:
+  posts: "/:title/"
+
+markup:
+  goldmark:
+    renderer:
+      # Allows HTML in Markdown
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
 
 languages:
   en:
@@ -68,35 +76,7 @@ languages:
       missingContentMessage: "Page not found..."
       missingBackButtonLabel: "Back to home page"
       # toc: true
-      tocTitle: "Table of Contents:"
+      # tocTitle: "Table of Contents:"
       logo:
         logoText: "Bryan's Dev Blog"
         logoHomeLink: "/"
-    menu:
-      main:
-        - identifier: "about"
-          name: "About"
-          url: "/about"
-
-permalinks:
-  posts: /post/:filename/
-  tutorials: /tutorials/:filename/
-
-enableGitInfo: true
-
-frontmatter:
-  date:
-  - date
-  - publishDate
-  - lastmod
-  expiryDate:
-  - expiryDate
-  lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
-  publishDate:
-  - publishDate
-  - date
-
