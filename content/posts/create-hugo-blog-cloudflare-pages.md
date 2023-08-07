@@ -162,6 +162,8 @@ git push
 
 We should now be able to navigate to `blog.example.com` and see our first post within seconds. We can also take a look at the builds and watch them while they are in progress in our Cloudflare account.
 
+Next, you can continue on to adding comments to the blog: [Add Comments to a Hugo Blog Using Utterances]({{< ref "add-utterances-hugo-blog" >}} "Add Comments to a Hugo Blog")
+
 ## References
 
 [^1]: [Hugo Installation](https://gohugo.io/installation/)
