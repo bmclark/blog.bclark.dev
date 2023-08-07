@@ -67,7 +67,7 @@ languages:
       olderPosts: "Older posts"
       missingContentMessage: "Page not found..."
       missingBackButtonLabel: "Back to home page"
-      toc: true
+      # toc: true
       tocTitle: "Table of Contents:"
       logo:
         logoText: "Bryan's Dev Blog"
