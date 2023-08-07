@@ -11,6 +11,7 @@ showFullContent = false
 readingTime = true
 hideComments = false
 color = "" #color from the theme settings
+toc = "true"
 +++
 
 I finally decided to just get a dev blog going quickly within a git repo that is automatically deployed when I push a new post/update. This was so easy to setup I can't believe I didn't do it sooner. I'll eventually move it over to a more "devopsy" pipeline on my own servers, but this is so easy to just get started writing articles I don't think anybody should wait to follow these steps.
