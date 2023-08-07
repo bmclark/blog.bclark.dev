@@ -68,7 +68,7 @@ languages:
       missingContentMessage: "Page not found..."
       missingBackButtonLabel: "Back to home page"
       toc: true
-      tocTitle: "Table of Contents"
+      tocTitle: "Table of Contents:"
       logo:
         logoText: "Bryan's Dev Blog"
         logoHomeLink: "/"
