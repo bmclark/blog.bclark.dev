@@ -14,6 +14,8 @@ color = "" #color from the theme settings
 toc = "true"
 +++
 
+## Intro
+
 I finally decided to just get a dev blog going quickly within a git repo that is automatically deployed when I push a new post/update. This was so easy to setup I can't believe I didn't do it sooner. I'll eventually move it over to a more "devopsy" pipeline on my own servers, but this is so easy to just get started writing articles I don't think anybody should wait to follow these steps.
 
 There is an extra step if you're using Gitea instead of GitHub or GitLab to host your repo. It's not very difficult, but Cloudflare Pages only interacts with GitHub and GitLab at the moment. This requires us to mirror our Gitea repo to GitHub or GitLab and I've included those steps.
