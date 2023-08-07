@@ -1,14 +1,14 @@
 +++
 title = "Add Comments to a Hugo Blog Using Utterances"
 date = "2023-08-07T16:20:43-04:00"
-author = ""
+author = "Bryan Clark"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 color = "" #color from the theme settings
 +++
