@@ -4,9 +4,9 @@ date: 2024-05-01T17:01:04-04:00
 author: "Bryan Clark"
 authorTwitter: "" #do not include @
 cover: ""
-tags: ["AWS", "cloudflare", "cloud-resume-challenge", "how-to"]
-keywords: ["Cloud Resume Challenge, "AWS", "tutorial", "html resume"]
-description: "This tutorial discusses how to push a hugo blog to a Gitea git repo and have each new commit automatically built and deployed to Cloudflare pages."
+tags: ["AWS", "CloudFront", "cloud-resume-challenge", "how-to"]
+keywords: ["Cloud Resume Challenge, "AWS", "tutorial", "html resume", "Github Copilot", "CloudFront CDN"]
+description: "This tutorial discusses how to create an HTML resume and deploy it as a static site via AWS with a custom SSL certificate."
 showFullContent: false
 readingTime: true
 hideComments: false
