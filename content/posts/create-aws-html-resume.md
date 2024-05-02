@@ -5,7 +5,7 @@ author: "Bryan Clark"
 authorTwitter: "" #do not include @
 cover: ""
 tags: ["AWS", "CloudFront", "cloud-resume-challenge", "how-to"]
-keywords: ["Cloud Resume Challenge, "AWS", "tutorial", "html resume", "Github Copilot", "CloudFront CDN"]
+keywords: ["Cloud Resume Challenge", "AWS", "tutorial", "html resume", "Github Copilot", "CloudFront CDN"]
 description: "This tutorial discusses how to create an HTML resume and deploy it as a static site via AWS with a custom SSL certificate."
 showFullContent: false
 readingTime: true
