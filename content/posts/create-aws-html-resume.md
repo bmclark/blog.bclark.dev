@@ -12,7 +12,6 @@ readingTime: true
 hideComments: false
 color: "" #color from the theme settings
 toc: "true"
-draft: true
 ---
 
 This is the first part in a multipart series detailing my actions going through the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)[^1]. This article is going to go over steps 1 through 6 of the Cloud Resume Challenge. The steps are as follows:
