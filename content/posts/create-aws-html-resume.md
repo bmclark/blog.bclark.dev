@@ -134,7 +134,7 @@ li::before {
 ## Upload the resume as a static website on S3
 Ok, now the real work begins (sorry front end devs 😝). Log in to your AWS console (you aren't using your root IAM user, are you?) and select S3. Now we're going to create a bucket. Enter your bucket name (we'll use "cloud-resume-aa123" as the example name for this tutorial). We're going to leave all settings as default except for the "Block all public access" portion. Obviously we *want* the public to access our website so uncheck all of that.
 
-![S3 Bucket Access](/assets/s3-bucket-access.png)
+![S3 Bucket Access](assets/s3-bucket-access.png)
 
 Once you have created the bucket, go ahead and click on it and we're going to upload objects. Upload your index.html and style.css or whatever files you've created. Now we're going to go to properties and turn on S3 static website hosting. Specify the "index" page for your site (index.html, resume.html... whatever your resume html filename is) and go ahead and enable hosting. S3 will give you a website address to access your bucket.
 
@@ -162,7 +162,7 @@ OK, that's great and all, but it isn't secure. Doesn't ***everything*** need to 
 
 Create a CloudFront distribution and select your S3 bucket. Ensure that you are using the website endpoint (AWS will probably prompt you to remind you). Select "Do not enable security protections" under Web App Firewall. Then scroll down to settings. Add your domain (and any applicable subdomains such as www) to the Alternate Domain Name field. Then look for Custom SSL Certificate. Select "Request Certificate" which will take you to ACM and allow you to request an SSL cert for your domain.
 
-![CloudFront distribution custom domain and SSL](/assets/custom-domain-ssl-certificate.png)
+![CloudFront distribution custom domain and SSL](assets/custom-domain-ssl-certificate.png)
 
 Follow the prompts for ACM to create an SSL cert for your domain. I would recommend DNS validation[^3] which is pretty simple. ACM will give you a record name and value which you will enter as a CNAME entry in your DNS provider for your domain. Once it propagates and is validated your certificate will be set up.
 
