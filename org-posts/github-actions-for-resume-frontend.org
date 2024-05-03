@@ -1,8 +1,10 @@
 #+hugo_base_dir: ../
 #+hugo_section: posts
 #+hugo_auto_set_lastmod: t
+#+author:
 #+title: Setting up GitHub Actions to Deploy AWS S3 Static Website
 #+date: 2024-05-02 May 23:04
+#+hugo_custom_front_matter: :author "Bryan Clark"
 #+hugo_custom_front_matter: :tags '(AWS "Cloud Resume Challenge")
 #+hugo_custom_front_matter: :keywords '(AWS "Cloud Resume Challenge" "deploy S3 static website" "GitHub Actions")
 #+hugo_custom_front_matter: :description "A tutorial on how to use GitHub actions to securely deploy a static website to an S3 bucket and invalidate CloudFront CDN cache."

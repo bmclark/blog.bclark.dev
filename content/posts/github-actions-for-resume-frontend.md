@@ -1,9 +1,9 @@
 +++
 title = "Setting up GitHub Actions to Deploy AWS S3 Static Website"
-author = "Bryan Clark"
 date = 2024-05-02T23:04:00-04:00
-lastmod = 2024-05-03T12:10:17-04:00
+lastmod = 2024-05-03T12:46:22-04:00
 draft = false
+author = "Bryan Clark"
 tags = ["AWS", "Cloud Resume Challenge"]
 keywords = ["AWS", "Cloud Resume Challenge", "deploy S3 static website", "GitHub Actions"]
 description = "A tutorial on how to use GitHub actions to securely deploy a static website to an S3 bucket and invalidate CloudFront CDN cache."
