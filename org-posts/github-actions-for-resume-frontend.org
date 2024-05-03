@@ -135,7 +135,7 @@ I would also like to mention an excellent post that I came across by Rebecca Mur
 
 * Footnotes
 [fn:6] https://docs.aws.amazon.com/cli/latest/reference/cloudfront/create-invalidation.html
- [fn:5] https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
+[fn:5] https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
 [fn:4] https://github.com/aws-actions/configure-aws-credentials/tree/v4
 [fn:3] https://docs.github.com/en/actions/using-workflows 
 [fn:2] https://docs.github.com/en/actions/learn-github-actions 
