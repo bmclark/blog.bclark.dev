@@ -1,6 +1,6 @@
 +++
 title = "Setting up GitHub Actions to Deploy AWS S3 Static Website"
-author = ["Bryan Clark"]
+author = "Bryan Clark"
 date = 2024-05-02T23:04:00-04:00
 lastmod = 2024-05-03T12:10:17-04:00
 draft = false
