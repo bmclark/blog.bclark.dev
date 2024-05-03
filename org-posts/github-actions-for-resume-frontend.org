@@ -3,11 +3,9 @@
 #+hugo_auto_set_lastmod: t
 #+title: Setting up GitHub Actions to Deploy AWS S3 Static Website
 #+date: 2024-05-02 May 23:04
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :tags '(AWS "Cloud Resume Challenge")
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :keywords '(AWS "Cloud Resume Challenge" "deploy S3 static website" "GitHub Actions")
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :description "A tutorial on how to use GitHub actions to securely deploy a static website to an S3 bucket and invalidate CloudFront CDN cache."
-:END:
+#+hugo_custom_front_matter: :tags '(AWS "Cloud Resume Challenge")
+#+hugo_custom_front_matter: :keywords '(AWS "Cloud Resume Challenge" "deploy S3 static website" "GitHub Actions")
+#+hugo_custom_front_matter: :description "A tutorial on how to use GitHub actions to securely deploy a static website to an S3 bucket and invalidate CloudFront CDN cache."
 
 * Overview
 Let's discuss setting up some CI/CD actions to automatically deploy our HTML resume to our S3 site every time we make a new commit. This is supposed to be completed later on in the Cloud Resume Challenge, however, I think it's silly not to implement this right away. I don't want to have to manually do anything when I can automate it. It's going to make it easier, save time, and reduce mistakes.
