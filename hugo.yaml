@@ -16,6 +16,7 @@ params:
   highlight: true
   showLastUpdated: true
   goToTop: true
+  favicon: "favicon.ico"
   author:
     avatar: "maverick.png"
     name: "Bryan Clark"
