@@ -23,18 +23,17 @@ params:
     description: "I write about tech things I'm doing in my personal life that I find interesting."
   socialIcons:
     linkedin:
-	name: linkedin
-	url: https://www.linkedin.com/in/bclarkdev
+        name: linkedin
+        url: https://www.linkedin.com/in/bclarkdev
     github:
         name: github
         url: https://github.com/bmclark
     cv:
-	name: resume
-	url: https://bclark.dev
+        name: resume
+        url: https://bclark.dev
     rss:
         name: rss
         url: index.xml
-  
 
 menu:
   main:
